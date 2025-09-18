@@ -1,6 +1,7 @@
 # Raspberry Pi 5
 라즈베리파이 5 8GB를 이용한 센서 감지 및 온보드 yolo 모델 구동 파일입니다
-![Image](https://github.com/user-attachments/assets/ad73cb70-6080-4059-89a5-08bcaa98f317)
+![https://github.com/user-attachments/assets/ad73cb70-6080-4059-89a5-08bcaa98f317](https://github.com/2025-Capstone-designe/RP5/blob/main/assets/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png)
+![image](https://github.com/2025-Capstone-designe/RP5/blob/main/assets/KakaoTalk_20250523_232548471_01.jpg)
 
 ## 기능
 ### main.py
@@ -12,6 +13,8 @@
 - 별도로 실행되는 yolo_fine.py와 소켓 통신을 통해 객체의 이동 정보 수집 및 데이터베이스에 저장
 
 ### sensors.py
+![image](https://github.com/2025-Capstone-designe/RP5/blob/main/assets/KakaoTalk_20250523_232548471_03.jpg)
+![image](https://github.com/2025-Capstone-designe/RP5/blob/main/assets/KakaoTalk_20250523_232548471_02.jpg)
 - spi 설정과 데이터 수집 함수를 구현
 - 0번 채널: 무게 센서
 - 1번 채널: 거리 센서1
